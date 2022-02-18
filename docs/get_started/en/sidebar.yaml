@@ -1,4 +1,23 @@
 items:
--   label: Introduction to teedoc
+-   label: Get Started
     file: README.md
+-   label: VastTools
+    file: VastTools.md
+    items:
+    -   label: AppUtils
+        file: AppUtils.md
+    -   label: DateUtils
+        file: DateUtils.md
+    -   label: DensityUtils
+        file: DensityUtils.md
+    -   label: LogUtils
+        file: LogUtils.md
+    -   label: MergeBmpUtils
+        file: MergeBmpUtils.md
+    -   label: ScreenSizeUtils
+        file: ScreenSizeUtils.md
+    -   label: SystemUtils
+        file: SystemUtils.md
+    -   label: ToastUtils
+        file: ToastUtils.md
 

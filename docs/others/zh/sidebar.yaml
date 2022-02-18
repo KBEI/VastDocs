@@ -1,0 +1,9 @@
+items:
+-   label: 快速开始
+    file: README.md
+    collapsed: false
+    items:
+    -   label: StarBar使用
+        file: StarBar.md
+    -   label: ShapeButton使用
+        file: ShapeButton.md

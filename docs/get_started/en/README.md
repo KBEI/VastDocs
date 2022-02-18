@@ -1,25 +1,54 @@
 ---
-title: Article title
-keywords: keyword1, keyword2
-desc: article description
+keywords: start
 ---
 
-## Add article
+<p align="center">
+<center style="display:flex;justify-content:center">
+<img src="../assets/images/android.png" width=60 height=60/><p style="font-size:20px;">With</p><img src="../assets/images/Tools.png" width=60 height=60/>
+</center>
 
-* Create markdown file with file name end with `.md` in the directory of this file, e.g. `first.md`
-* Add link in `sidebar.yaml`
+<p align="center" p style="font-size:30px;">VastUtils</p>
 
-```markdown
-items:
--   label: Brief
-    file: README.md
--   label: First
-    file: first.md
+<p align="center">Easy Quick Android Utils for you to faster project development.</p>
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/compile%20sdk%20version-31-blue"/>
+<img src="https://img.shields.io/badge/min%20sdk%20version-23-yellowgreen"/>
+<img src="https://img.shields.io/badge/target%20sdk%20version-31-orange"/>
+<img src="https://img.shields.io/badge/jdk%20version-11-%2300b894"/>
+</p>
+
+## 🚀 How to
+
+### VastNetStateLayout
+
+A layout to set customized network state ui.
+
+```gradle
+implementation 'io.github.sakurajimamaii:VastNetStateLayout:0.0.2'
 ```
 
-## More example
+### VastTools
 
-More visit: [teedoc.neucrack.com](https://teedoc.neucrack.com/) or [teedoc.github.io](https://teedoc.github.io/)
+Easy Quick Android Tools for you to faster project development.
 
-And more example see: [github.com/teedoc/teedoc.github.io](https://github.com/teedoc/teedoc.github.io) and [https://github.com/teedoc/template](https://github.com/teedoc/template) , and [sipeed wiki](https://github.com/sipeed/sipeed_wiki)
+```gradle
+implementation 'io.github.sakurajimamaii:VastTools:0.0.4'
+```
 
+### VastAdapter
+
+Help you quickly build an Adapter suitable for RecyclerView.
+
+```gradle
+implementation 'io.github.sakurajimamaii:VastAdapter:0.0.2'
+```
+
+### VastSwipeView
+
+A RecyclerView that supports swipe list items.
+
+```gradle
+implementation 'io.github.sakurajimamaii:VastSwipeListView:0.0.2'
+```
