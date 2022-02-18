@@ -1,248 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-            <loc>https://vastutils.github.io/VastDocs/get_started/zh/VastNetStateLayout.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://vastutils.github.io/VastDocs/get_started/zh/VastAdapter.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://vastutils.github.io/VastDocs/get_started/zh/ScreenSizeUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://vastutils.github.io/VastDocs/get_started/zh/LogUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://vastutils.github.io/VastDocs/get_started/zh/ColorUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://vastutils.github.io/VastDocs/get_started/zh/BaseVastAdapter.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://vastutils.github.io/VastDocs/get_started/zh/ToastUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://vastutils.github.io/VastDocs/get_started/zh/index.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://vastutils.github.io/VastDocs/get_started/zh/VastNetState.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/zh/DateUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/zh/DensityUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/zh/ShapeAndStateUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/zh/BaseVastBindAdapter.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/zh/VastTools.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/zh/IntentUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/zh/AppUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/zh/Bean.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/zh/SystemUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/zh/MergeBmpUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://vastutils.github.io/VastDocs/get_started/zh/VastNetStateLayout.html</loc>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://vastutils.github.io/VastDocs/get_started/zh/VastAdapter.html</loc>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://vastutils.github.io/VastDocs/get_started/zh/ScreenSizeUtils.html</loc>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://vastutils.github.io/VastDocs/get_started/zh/LogUtils.html</loc>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://vastutils.github.io/VastDocs/get_started/zh/ColorUtils.html</loc>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://vastutils.github.io/VastDocs/get_started/zh/BaseVastAdapter.html</loc>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://vastutils.github.io/VastDocs/get_started/zh/ToastUtils.html</loc>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://vastutils.github.io/VastDocs/get_started/zh/index.html</loc>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://vastutils.github.io/VastDocs/get_started/zh/VastNetState.html</loc>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/MergeBmpUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/ScreenSizeUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/LogUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/BaseVastAdapter.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/ToastUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/index.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/DateUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/DensityUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/BaseVastBindAdapter.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/VastTools.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/AppUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/SystemUtils.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.573444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/get_started/en/no_translate.html</loc>
-            <lastmod>2022-02-18T16:12:19.212619</lastmod>
+            <lastmod>2022-02-18T16:12:32.953748</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/history/zh/VastTools.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/history/zh/VastNetStateLayout.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/history/zh/VastAdapter.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/history/zh/index.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/history/zh/no_translate.html</loc>
-            <lastmod>2022-02-18T16:12:19.212619</lastmod>
+            <lastmod>2022-02-18T16:12:32.953748</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/others/zh/ShapeButton.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/others/zh/StarBar.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/others/zh/index.html</loc>
-            <lastmod>2022-02-18T16:12:04.700475</lastmod>
+            <lastmod>2022-02-18T16:12:20.577444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://vastutils.github.io/VastDocs/others/zh/no_translate.html</loc>
-            <lastmod>2022-02-18T16:12:19.212619</lastmod>
+            <lastmod>2022-02-18T16:12:32.953748</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
