@@ -36,7 +36,7 @@ footer:
     -   label: 源码
         items:
         -   label: github
-            url: https://github.com/SakurajimaMaii/vastutils.github.io
+            url: https://github.com/SakurajimaMaii/VastDocs
             target: _blank
         -   label: gitee
             url: https://gitee.com/DothebestForMyself/vastutils.github.io
