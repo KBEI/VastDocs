@@ -98,8 +98,8 @@ sup a {
     font-size: 1.1em;
     background-color: #f1f1f1;
     padding: 4px;
-    border-left: 1px solid #4caf7d;
-    border-right: 1px solid #4caf7d;
+    border-left: 1px solid #283c86;
+    border-right: 1px solid #283c86;
 }
 table {
     border-collapse: collapse;
@@ -134,7 +134,7 @@ code {
     transition: 0.4s;
     font-family: Menlo, Consolas, "DejaVu Sans Mono", Bitstream Vera Sans Mono, Courier New, monospace, Monaco, 'Andale Mono', 'Ubuntu Mono', "Microsoft YaHei";
     font-size: 0.8em;
-    color: #4caf7d;
+    color: #283c86;
 }
 
 .btn,
@@ -146,7 +146,7 @@ code {
     padding: 1em;
     cursor: pointer;
     transition: 0.2s;
-    background: #4caf7d;
+    background: #283c86;
 }
 .btn:hover,
 #page_content .btn:hover,
@@ -355,7 +355,7 @@ code {
 #sidebar .active > a, #navbar .active > a, #navbar .active_parent > a{
     background-color: #f1f1f1;
     border-radius: 5px;
-    color: #4caf7d;
+    color: #283c86;
     transition: 0.4s;
 }
 #navbar .sub_items .active > a {
@@ -459,7 +459,7 @@ code {
 }
 #blog_list > ul > li a, #blog_list > ul > li a:visited {
     padding: 0;
-    color: #4caf7d;
+    color: #283c86;
 }
 html[lang^=zh] #article_content #blog_list h2:before {
     content: "";
@@ -668,7 +668,7 @@ html[lang^=zh].heading_no_counter #article_content h4:before {
     border-radius: 5px;
     color: #d5ffea;
     font-size: 0.9em;
-    background-color: #4caf7d;
+    background-color: #283c86;
 }
 #article_info {
     display: flex;
@@ -954,7 +954,7 @@ a.toc-link {
 }
 
 .is-active-link::before {
-	border-left: 2px solid #4caf7d;
+	border-left: 2px solid #283c86;
 }
 
 /* class template */

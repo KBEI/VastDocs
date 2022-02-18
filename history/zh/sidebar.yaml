@@ -1,0 +1,9 @@
+items:
+-   label: 更新历史
+    file: README.md
+-   label: VastTools更新记录
+    file: VastTools.md
+-   label: VastAdapter更新记录
+    file: VastAdapter.md
+-   label: VastNetStateLayout更新记录
+    file: VastNetStateLayout.md

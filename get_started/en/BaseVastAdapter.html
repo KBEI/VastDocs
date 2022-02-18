@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en"  class="" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="generator" content="teedoc">
+    <meta name="theme" content="teedoc-plugin-theme-default">
+    
+    <meta name="markdown-generator" content="teedoc-plugin-markdown-parser">
+    
+    <script>
+MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]]}, "svg": {"fontCache": "global"}};
+</script>
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="/static/css/theme_default/prism.min.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/theme_default/viewer.min.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/theme_default/dark.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/theme_default/light.css" type="text/css"/>
+    
+    <script src="/static/js/theme_default/split.js"></script>
+    
+    <script src="/static/js/theme_default/jquery.min.js"></script>
+    
+    <script src="/static/js/theme_default/pre_main.js"></script>
+    
+    <link rel="stylesheet" href="/static/css/search/style.css" type="text/css"/>
+    
+    <meta name="blog-generator" content="teedoc-plugin-blog">
+    
+    <link rel="stylesheet" href="/static/css/custom.css" type="text/css"/>
+    
+    <title>BaseVastAdapter - VastUtils</title>
+    <script type="text/javascript">js_vars = {}</script>
+</head>
+<body class="type_doc">
+    <div id="navbar">
+        <div id="navbar_menu">
+            <a class="site_title" href="/en/">
+                
+                    <img class="site_logo" src="/static/image/logo.png" alt="my_site logo">
+                
+                
+                    <h2>VastUtils</h2>
+                
+        </a>
+            <a id="navbar_menu_btn"></a>
+        </div>
+        <div id="navbar_items">
+            <div>
+                <ul id="nav_left">
+<li class="active"><a  href="/get_started/en/">Document</a></li>
+<li class=""><a  href="/history/zh/">history</a></li>
+</ul>
+
+            </div>
+            <div>
+                <ul id="nav_right">
+<li class=""><a target="_blank" href="https://github.com/SakurajimaMaii/VastUtils">github</a></li>
+<li class="sub_items "><a  href="">Language: English</a><ul><li class="active"><a  href="/get_started/en/">English</a></li>
+<li class=""><a  href="/get_started/zh/">中文 简体</a></li>
+</ul></li>
+</ul>
+
+                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul><ul class="nav_plugins"><li><a id="search"><span class="icon"></span><span class="placeholder">Search</span>
+                            <div id="search_hints">
+                                <span id="search_input_hint">Keywords separated by space</span>
+                                <span id="search_loading_hint">Loading, wait please ...</span>
+                                <span id="search_download_err_hint">Download error, please check network and refresh again</span>
+                                <span id="search_other_docs_result_hint">Result from other docs</span>
+                                <span id="search_curr_doc_result_hint">Result from current doc</span>
+                            </div></a></li></ul>
+            </div>
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="sidebar_wrapper">
+            <div id="sidebar">
+                <div id="sidebar_title">
+                    
+                </div>
+                <ul class="">
+<li class="not_active with_link"><a href="/get_started/en/index.html"><span class="label">Get Started</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/VastTools.html"><span class="label">VastTools</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/get_started/en/AppUtils.html"><span class="label">AppUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/DateUtils.html"><span class="label">DateUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/DensityUtils.html"><span class="label">DensityUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/LogUtils.html"><span class="label">LogUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/MergeBmpUtils.html"><span class="label">MergeBmpUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/ScreenSizeUtils.html"><span class="label">ScreenSizeUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/SystemUtils.html"><span class="label">SystemUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/ToastUtils.html"><span class="label">ToastUtils</span><span class=""></span></a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+        <div id="article">
+            <div id="menu_wrapper">
+                <div id="menu">
+                </div>
+            </div>
+            <div id="content_wrapper">
+                <div id="content_body">
+                    <div id="article_head">
+                        <div id="article_title">
+                            <h1>BaseVastAdapter</h1>
+                        </div>
+                        <div id="article_tags">
+                            <ul>
+                            
+                            </ul>
+                        </div>
+                        <div id="article_info">
+                        <div id="article_info_left">
+                            <span class="article_author">
+                                
+                            </span>
+                            <span class="article_date">
+                                
+                            </span>
+                        </div>
+                        <div id="article_info_right">
+                            
+                            <div id="source_link">
+                                <a href="https://github.com/SakurajimaMaii/vastutils.github.io/blob/main/docs/get_started/en/BaseVastAdapter.md" target="_blank">
+                                    Edit this page
+                                </a>
+                            </div>
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <div id="article_content">
+                        <blockquote><p>If possible, it is recommended to use <strong>BaseVastBindingAdapter</strong></p>
+</blockquote>
+<h2 id="Quick-start">Quick start</h2>
+<p>Through the following example,  you can quickly apply <strong>BaseVastAdapter </strong> to your project</p>
+<ul>
+<li>First, we need your data class to implement the <strong>VastAdapterItem</strong> interface,Let's take <strong>AExample </strong>and <strong>BExample</strong> as examples.</li>
+</ul>
+<pre><code class="lang-kotlin">// Vaapclickevent is your custom click event
+// Vadplongclickevent is your custom long click event
+// The return value of getvadpitemtype method should be the same as the corresponding VH
+class AExample(
+    val data: String,
+    override var vAdpClickEvent: VAapClickEvent,
+    override var vAdpLongClickEvent: VAdpLongClickEvent
+):VastAdapterItem {
+    override fun getVAdpItemType(): String {
+        return &quot;person&quot;
+    }
+}
+
+class BExample(
+    val drawable:Int,
+    override var vAdpClickEvent: VAapClickEvent,
+    override var vAdpLongClickEvent: VAdpLongClickEvent
+) : VastAdapterItem {
+    override fun getVAdpItemType(): String {
+        return &quot;picture&quot;
+    }
+}
+</code></pre>
+<ul>
+<li>Set the corresponding viewholder, which needs to inherit from <strong>BaseVastAdapterVH</strong></li>
+</ul>
+<pre><code class="lang-kotlin">// VH corresponding to AExample
+class AViewHolder(itemView: View): BaseVastAdapterVH(itemView) {
+    private val tv:TextView
+
+    override fun onBindData(item: VastAdapterItem) {
+        super.onBindData(item)
+        tv.text = (item as AExample).data
+    }
+
+    class Factory:BVAdpVHFactory{
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BaseVastAdapterVH {
+            return AViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_textview,parent,false))
+        }
+
+        override fun getVAdpVHType(): String {
+            return &quot;person&quot; // Consistent with Item
+        }
+    }
+
+    init {
+        tv = itemView.findViewById(R.id.text)
+    }
+}
+
+//VH corresponding to BExample
+class BViewHolder(itemView: View) : BaseVastAdapterVH(itemView) {
+
+    private val iv: ImageView
+
+    override fun onBindData(item: VastAdapterItem) {
+        super.onBindData(item)
+        iv.setImageResource((item as BExample).drawable)
+    }
+
+    class Factory : BVAdpVHFactory {
+
+        override fun onCreateViewHolder(
+            parent: ViewGroup,
+            viewType: Int
+        ): BaseVastAdapterVH {
+            val inflater = LayoutInflater.from(parent.context)
+            val itemView: View = inflater.inflate(R.layout.item_imageview, parent, false)
+            return BViewHolder(itemView)
+        }
+
+        override fun getVAdpVHType(): String {
+            return &quot;picture&quot;
+        }
+
+    }
+
+    init {
+        iv = itemView.findViewById(R.id.item_image)
+    }
+}
+</code></pre>
+<ul>
+<li>Implement  Adapter</li>
+</ul>
+<pre><code class="lang-kotlin">class BaseAdapter(
+    private val items: MutableList&lt;VastAdapterItem&gt;,
+    factories: MutableList&lt;BaseVastAdapterVH.BVAdpVHFactory&gt;
+) : BaseVastAdapter(items, factories)
+</code></pre>
+<ul>
+<li>Use in  MainActivity</li>
+</ul>
+<pre><code class="lang-kotlin">// Get data source
+private val datas:MutableList&lt;VastAdapterItem&gt; = ArrayList()
+
+for(i in 0..10){
+    datas.add(AExample(i.toString(),null,null))
+    datas.add(BExample(R.drawable.ic_knots,null,null))
+}
+
+// Set to RecyclerView
+adapter = BaseAdapter(datas, mutableListOf(AViewHolder.Factory(), BViewHolder.Factory()))
+
+// Datarv is RecyclerView
+dataRv.adapter = adapter
+dataRv.layoutManager = LinearLayoutManager(this)
+</code></pre>
+<div align="center"><img src="../assets/images/VastAdapter.gif" width=30%/></div><h2 id="Add-click-%28or-long-press%29-event">Add click (or long press) event</h2>
+<p>Click events are essential to a list. The following example shows you how to add corresponding click (or long press) events to an item</p>
+<pre><code class="lang-kotlin">// Set click event
+private val click:VAapClickEvent = { _: View, pos:Int,-&gt;
+    showShortMsg(&quot;Click event and pos is $pos.&quot;)
+}
+
+// Set long press event
+private val longClick:VAdpLongClickEvent = { _: View, pos:Int,-&gt;
+    showShortMsg(&quot;Long click event and pos is $pos.&quot;)
+    true
+}
+
+// Set the corresponding click event when adding a data source
+for(i in 0..10){
+    datas.add(AExample(i.toString(),click,null))
+    datas.add(BExample(R.drawable.ic_knots,null,longClick))
+}
+</code></pre>
+<div align="center"><img src="../assets/images/VastAdapterClick.gif" width=30%/></div><h2 id="Add-new-data-type">Add new data type</h2>
+<p>If you want to add a third type of data to the list, you only need the following three steps</p>
+<ul>
+<li>Define a new data type, such as <strong>CExample</strong>，and make it implement the <strong>VastAdapterItem</strong>  interface</li>
+<li>Define the ViewHolder corresponding to <strong>CExample</strong>,such as <strong>CViewHolder</strong></li>
+<li><p>Add its corresponding  <strong>Factory</strong> to the adapter</p>
+<pre><code class="lang-kotlin">adapter = BaseAdapter(datas, mutableListOf(AViewHolder.Factory(), BViewHolder.Factory() ,CViewHolder.Factory()))
+</code></pre>
+</li>
+</ul>
+<h2 id="Add-additional-features-to-the-adapter">Add additional features to the adapter</h2>
+<p>The following example shows you how to add the function of judging whether the data source is empty to the Adapter</p>
+<pre><code class="lang-kotlin">class BaseAdapter(
+    private val items: MutableList&lt;VastAdapterItem&gt;,
+    factories: MutableList&lt;BaseVastAdapterVH.BVAdpVHFactory&gt;
+) : BaseVastAdapter(items, factories) {
+
+    /**
+     * Returns true if the collection is empty (does not contain any elements), otherwise false.
+     * @return Boolean
+     */
+    fun isItemEmpty() = items.isEmpty()
+}
+</code></pre>
+<h2 id="Quote">Quote</h2>
+<p>Part of the design of BaseVastAdapter refers to <a href="https://puke3615.github.io/2018/08/26/Android-RecyclerView-Architecture-Design/"  target="_blank">completely decouple RecyclerView.Adapter</a></p>
+
+                    </div>
+                </div>
+                <div id="previous_next">
+                    <div id="previous">
+                        
+                    </div>
+                    <div id="next">
+                        
+                    </div>
+                </div>
+                <div id="comments-container"></div>
+            </div>
+            <div id="toc">
+                <div id="toc_content">
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="to_top" href="#"></a>
+    <div id="doc_footer">
+        <div id="footer">
+            <div id="footer_top">
+                <ul>
+<li><a>Links</a><ul><li><a target="_blank" href="https://teedoc.neucrack.com">Build with teedoc</a></li>
+<li><a  href="/sitemap.xml">Sitemap</a></li>
+</ul>
+</li>
+<li><a>Source code</a><ul><li><a target="_blank" href="https://github.com/SakurajimaMaii/vastutils.github.io">github</a></li>
+<li><a target="_blank" href="https://github.com/SakurajimaMaii/VastUtils">VastUtils</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+            <div id="footer_bottom">
+                <ul>
+<li><a target="_blank" href="https://beian.miit.gov.cn"></a></li>
+<li><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=****************"></a></li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+    
+        <script src="/static/js/theme_default/tocbot.min.js"></script>
+    
+        <script src="/static/js/theme_default/main.js"></script>
+    
+        <script src="/static/js/theme_default/viewer.min.js"></script>
+    
+        <script src="/static/css/theme_default/prism.min.js"></script>
+    
+        <script src="/static/js/search/search_main.js"></script>
+    
+        <script src="/static/js/plugin_blog/main.js"></script>
+    
+        <script src="/static/js/custom.js"></script>
+    
+</body>
+</html>

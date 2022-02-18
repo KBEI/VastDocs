@@ -3,8 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="keyword1,  keyword2, ">
-    <meta name="description" content="article description">
+    <meta name="keywords" content="start, ">
+    <meta name="description" content="">
     <meta name="generator" content="teedoc">
     <meta name="theme" content="teedoc-plugin-theme-default">
     
@@ -38,7 +38,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
     
     <link rel="stylesheet" href="/static/css/custom.css" type="text/css"/>
     
-    <title>Article title - mysite</title>
+    <title>VastUtils</title>
     <script type="text/javascript">js_vars = {}</script>
 </head>
 <body class="type_doc">
@@ -49,7 +49,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     <img class="site_logo" src="/static/image/logo.png" alt="my_site logo">
                 
                 
-                    <h2>my_site</h2>
+                    <h2>VastUtils</h2>
                 
         </a>
             <a id="navbar_menu_btn"></a>
@@ -57,14 +57,14 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         <div id="navbar_items">
             <div>
                 <ul id="nav_left">
-<li class="active"><a  href="/get_started/en/">Install</a></li>
-<li class=""><a  href="/blog/">Blog</a></li>
+<li class="active"><a  href="/get_started/en/">Document</a></li>
+<li class=""><a  href="/history/zh/">history</a></li>
 </ul>
 
             </div>
             <div>
                 <ul id="nav_right">
-<li class=""><a target="_blank" href="https://github.com/neutree/teedoc">github</a></li>
+<li class=""><a target="_blank" href="https://github.com/SakurajimaMaii/VastUtils">github</a></li>
 <li class="sub_items "><a  href="">Language: English</a><ul><li class="active"><a  href="/get_started/en/">English</a></li>
 <li class=""><a  href="/get_started/zh/">中文 简体</a></li>
 </ul></li>
@@ -88,7 +88,18 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     
                 </div>
                 <ul class="show">
-<li class="active with_link"><a href="/get_started/en/index.html"><span class="label">Introduction to teedoc</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/get_started/en/index.html"><span class="label">Get Started</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/VastTools.html"><span class="label">VastTools</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/get_started/en/AppUtils.html"><span class="label">AppUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/DateUtils.html"><span class="label">DateUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/DensityUtils.html"><span class="label">DensityUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/LogUtils.html"><span class="label">LogUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/MergeBmpUtils.html"><span class="label">MergeBmpUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/ScreenSizeUtils.html"><span class="label">ScreenSizeUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/SystemUtils.html"><span class="label">SystemUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/get_started/en/ToastUtils.html"><span class="label">ToastUtils</span><span class=""></span></a></li>
+</ul>
+</li>
 </ul>
 
             </div>
@@ -102,7 +113,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                 <div id="content_body">
                     <div id="article_head">
                         <div id="article_title">
-                            <h1>Article title</h1>
+                            <h1></h1>
                         </div>
                         <div id="article_tags">
                             <ul>
@@ -121,7 +132,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                         <div id="article_info_right">
                             
                             <div id="source_link">
-                                <a href="https://github.com/my_name/my_name.github.io/blob/main/docs/get_started/en/README.md" target="_blank">
+                                <a href="https://github.com/SakurajimaMaii/vastutils.github.io/blob/main/docs/get_started/en/README.md" target="_blank">
                                     Edit this page
                                 </a>
                             </div>
@@ -130,20 +141,34 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                         </div>
                     </div>
                     <div id="article_content">
-                        <h2 id="Add-article">Add article</h2>
-<ul>
-<li>Create markdown file with file name end with <code>.md</code> in the directory of this file, e.g. <code>first.md</code></li>
-<li>Add link in <code>sidebar.yaml</code></li>
-</ul>
-<pre><code class="lang-markdown">items:
--   label: Brief
-    file: README.md
--   label: First
-    file: first.md
+                        <p align="center">
+<center style="display:flex;justify-content:center">
+<img src="../assets/images/android.png" width=60 height=60/><p style="font-size:20px;">With</p><img src="../assets/images/Tools.png" width=60 height=60/>
+</center>
+
+<p align="center" p style="font-size:30px;">VastUtils</p><p align="center">Easy Quick Android Utils for you to faster project development.</p>
+</p><p align="center">
+<img src="https://img.shields.io/badge/compile%20sdk%20version-31-blue"/>
+<img src="https://img.shields.io/badge/min%20sdk%20version-23-yellowgreen"/>
+<img src="https://img.shields.io/badge/target%20sdk%20version-31-orange"/>
+<img src="https://img.shields.io/badge/jdk%20version-11-%2300b894"/>
+</p><h2 id="%F0%9F%9A%80-How-to">🚀 How to</h2>
+<h3 id="VastNetStateLayout">VastNetStateLayout</h3>
+<p>A layout to set customized network state ui.</p>
+<pre><code class="lang-gradle">implementation &#39;io.github.sakurajimamaii:VastNetStateLayout:0.0.2&#39;
 </code></pre>
-<h2 id="More-example">More example</h2>
-<p>More visit: <a href="https://teedoc.neucrack.com/"  target="_blank">teedoc.neucrack.com</a> or <a href="https://teedoc.github.io/"  target="_blank">teedoc.github.io</a></p>
-<p>And more example see: <a href="https://github.com/teedoc/teedoc.github.io"  target="_blank">github.com/teedoc/teedoc.github.io</a> and <a href="https://github.com/teedoc/template"  target="_blank">https://github.com/teedoc/template</a> , and <a href="https://github.com/sipeed/sipeed_wiki"  target="_blank">sipeed wiki</a></p>
+<h3 id="VastTools">VastTools</h3>
+<p>Easy Quick Android Tools for you to faster project development.</p>
+<pre><code class="lang-gradle">implementation &#39;io.github.sakurajimamaii:VastTools:0.0.4&#39;
+</code></pre>
+<h3 id="VastAdapter">VastAdapter</h3>
+<p>Help you quickly build an Adapter suitable for RecyclerView.</p>
+<pre><code class="lang-gradle">implementation &#39;io.github.sakurajimamaii:VastAdapter:0.0.2&#39;
+</code></pre>
+<h3 id="VastSwipeView">VastSwipeView</h3>
+<p>A RecyclerView that supports swipe list items.</p>
+<pre><code class="lang-gradle">implementation &#39;io.github.sakurajimamaii:VastSwipeListView:0.0.2&#39;
+</code></pre>
 
                     </div>
                 </div>
@@ -152,6 +177,11 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                         
                     </div>
                     <div id="next">
+                        
+                        <a href="/get_started/en/VastTools.html">
+                            <span class="label">VastTools</span>
+                            <span class="icon"></span>
+                        </a>
                         
                     </div>
                 </div>
@@ -173,8 +203,8 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
 <li><a  href="/sitemap.xml">Sitemap</a></li>
 </ul>
 </li>
-<li><a>Source code</a><ul><li><a target="_blank" href="https://github.com/neutree/teedoc">github</a></li>
-<li><a target="_blank" href="https://github.com/teedoc/teedoc.github.io">website source files</a></li>
+<li><a>Source code</a><ul><li><a target="_blank" href="https://github.com/SakurajimaMaii/vastutils.github.io">github</a></li>
+<li><a target="_blank" href="https://github.com/SakurajimaMaii/VastUtils">VastUtils</a></li>
 </ul>
 </li>
 </ul>
@@ -182,8 +212,8 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
             </div>
             <div id="footer_bottom">
                 <ul>
-<li><a target="_blank" href="https://beian.miit.gov.cn">*ICP备********号</a></li>
-<li><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=****************">*公网安备***********号</a></li>
+<li><a target="_blank" href="https://beian.miit.gov.cn"></a></li>
+<li><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=****************"></a></li>
 </ul>
 
             </div>
