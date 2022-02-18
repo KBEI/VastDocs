@@ -32,12 +32,12 @@ function setTheme(theme){
         obj.removeClass("light");
         obj.addClass("dark");
         $("body").addClass("dark");
-        addCss("/static/css/theme_default/dark.css");
+        addCss("/VastDocs/static/css/theme_default/dark.css");
     }else{
         obj.removeClass("dark");
         obj.addClass("light");
         $("body").removeClass("dark");
-        removejscssfile("/static/css/theme_default/dark.css", "css");
+        removejscssfile("/VastDocs/static/css/theme_default/dark.css", "css");
     }
     localStorage.setItem("theme", theme);
 }
