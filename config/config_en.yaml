@@ -32,7 +32,7 @@ footer:
     -   label: Source code
         items:
         -   label: github
-            url: https://github.com/SakurajimaMaii/vastutils.github.io
+            url: https://github.com/SakurajimaMaii/VastDocs
             target: _blank
         -   label: VastUtils
             url: https://github.com/SakurajimaMaii/VastUtils
