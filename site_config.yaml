@@ -1,6 +1,6 @@
 site_name: VastUtils
 site_slogon: 便捷安卓开发工具
-site_root_url: /
+site_root_url: /VastDocs/
 site_domain: vastutils.github.io
 site_protocol: https
 config_template_dir: config
