@@ -26,20 +26,20 @@ navbar:
         type: language
 footer:
     top:
-    -   label: 链接
-        items:
-        -   label: 使用 teedoc 构建
-            url: https://teedoc.neucrack.com
-            target: _blank
-        -   label: 网站地图
-            url: /sitemap.xml
+    # -   label: 链接
+    #     items:
+    #     -   label: 使用 teedoc 构建
+    #         url: https://teedoc.neucrack.com
+    #         target: _blank
+    #     -   label: 网站地图
+    #         url: /sitemap.xml
     -   label: 源码
         items:
         -   label: github
             url: https://github.com/SakurajimaMaii/VastDocs
             target: _blank
         -   label: gitee
-            url: https://gitee.com/DothebestForMyself/vastutils.github.io
+            url: https://gitee.com/DothebestForMyself/VastDocs
             target: _blank
         -   label: 项目地址
             url: https://github.com/SakurajimaMaii/VastUtils

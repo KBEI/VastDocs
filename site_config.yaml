@@ -4,7 +4,7 @@ site_root_url: /
 site_domain: vastutils.github.io
 site_protocol: https
 config_template_dir: config
-source: https://github.com/SakurajimaMaii/vastutils.github.io/blob/main
+source: https://github.com/SakurajimaMaii/VastDocs/blob/main
 route:
     docs:
         /get_started/zh/: docs/get_started/zh
