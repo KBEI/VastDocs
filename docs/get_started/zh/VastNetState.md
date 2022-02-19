@@ -15,9 +15,3 @@
 <image src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/910d7acfe764488bb03d87b45359608c~tplv-k3u1fbpfcp-zoom-1.image" width=30%/>
 <image src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/aa7a12ba7d04449882f9073973dbbcd8~tplv-k3u1fbpfcp-zoom-1.image" width=30%/>
 </div>
-
-## 添加依赖
-
-```groovy
-implementation 'io.github.sakurajimamaii:VastNetStateLayout:0.0.2'
-```

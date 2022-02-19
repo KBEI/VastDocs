@@ -9,8 +9,11 @@ navbar:
     -   url: /get_started/en/
         label: Document
         position: left
-    -   url: /history/zh/
-        label: history
+    -   url: /history/en/
+        label: History
+        position: left
+    -   url: /others/en/
+        label: Other Module
         position: left
     -   url: https://github.com/SakurajimaMaii/VastUtils
         label: github

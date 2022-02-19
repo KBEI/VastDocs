@@ -20,4 +20,11 @@ items:
         file: SystemUtils.md
     -   label: ToastUtils
         file: ToastUtils.md
-
+-   label: VastAdapter
+    file: VastAdapter.md
+    collapsed: false
+    items:
+    -   label: BaseVastAdapter
+        file: BaseVastAdapter.md
+    -   label: BaseVastBindAdapter
+        file: BaseVastBindAdapter.md

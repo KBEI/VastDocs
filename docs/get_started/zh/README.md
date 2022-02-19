@@ -26,33 +26,22 @@ desc: 项目总体概览
 
 一款支持自定义网络状态的布局控件
 
-```gradle
-implementation 'io.github.sakurajimamaii:VastNetStateLayout:0.0.2'
+```groovy
+implementation 'io.github.sakurajimamaii:VastNetStateLayout:0.0.3'
 ```
 
 ### VastTools
 
 包含了常用的安卓工具集
 
-```gradle
-implementation 'io.github.sakurajimamaii:VastTools:0.0.4'
+```groovy
+implementation 'io.github.sakurajimamaii:VastTools:0.0.5'
 ```
 
 ### VastAdapter
 
 帮助你快速构建匹配RecyclerView的适配器
 
-```gradle
-implementation 'io.github.sakurajimamaii:VastAdapter:0.0.2'
+```groovy
+implementation 'io.github.sakurajimamaii:VastAdapter:0.0.3'
 ```
-
-### VastSwipeView
-
-基于RecyclerView开发的仿QQ滑动控件
-
-```gradle
-implementation 'io.github.sakurajimamaii:VastSwipeListView:0.0.2'
-```
-
-
-

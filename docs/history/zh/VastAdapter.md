@@ -9,3 +9,13 @@
 - [x] 优化了点击事件接口设计
 - [x] `BaseVastAdapter` 修复了 `getItemViewType` 内的逻辑错误
 - [x] 对 `onBindViewHolder` `onCreateViewHolder` `getItemViewType` `getItemCount` 这几个方法添加 final 限制
+
+## Version 0.0.2
+
+- [x] `BaseGcodeAdapter` 更名为 `BaseVastAdapter`
+- [x] `BaseGcodeBindingAdapter` 更名为 `BaseVastBindingAdapter`
+- [x] `BaseGcodeItem` 更名为 `BaseVastItem`
+
+## Version 0.0.1
+
+- [x] Adapter分离出来的第一个正式版

@@ -13,9 +13,3 @@
 - 👍 ShapeAndStateUtils ShapeAndStateUtils是对GradientDrawable进行了封装，不必每次使用都需要创建shape.xml
 - 👍 SystemUtils 提供了获取系统信息的方法
 - 👍 ToastUtils 提供了三种常用消息提示框`Short Toast` `Long Toast` `Dialog`
-
-## 添加依赖
-
-```groovy
-implementation 'io.github.sakurajimamaii:VastTools:0.0.4'
-```

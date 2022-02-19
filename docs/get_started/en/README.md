@@ -25,30 +25,22 @@ keywords: start
 
 A layout to set customized network state ui.
 
-```gradle
-implementation 'io.github.sakurajimamaii:VastNetStateLayout:0.0.2'
+```groovy
+implementation 'io.github.sakurajimamaii:VastNetStateLayout:0.0.3'
 ```
 
 ### VastTools
 
 Easy Quick Android Tools for you to faster project development.
 
-```gradle
-implementation 'io.github.sakurajimamaii:VastTools:0.0.4'
+```groovy
+implementation 'io.github.sakurajimamaii:VastTools:0.0.5'
 ```
 
 ### VastAdapter
 
 Help you quickly build an Adapter suitable for RecyclerView.
 
-```gradle
-implementation 'io.github.sakurajimamaii:VastAdapter:0.0.2'
-```
-
-### VastSwipeView
-
-A RecyclerView that supports swipe list items.
-
-```gradle
-implementation 'io.github.sakurajimamaii:VastSwipeListView:0.0.2'
+```groovy
+implementation 'io.github.sakurajimamaii:VastAdapter:0.0.3'
 ```

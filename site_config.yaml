@@ -10,7 +10,9 @@ route:
         /get_started/zh/: docs/get_started/zh
         /get_started/en/: docs/get_started/en
         /history/zh/: docs/history/zh
+        /history/en/: docs/history/en
         /others/zh/: docs/others/zh
+        /others/en/: docs/others/en
     pages:
         /: pages/index/zh
     assets:
@@ -24,11 +26,11 @@ translate:
         -   url: /get_started/en/
             src: docs/get_started/en
         /history/zh/:
-        -   url: /history/zh/
-            src: docs/history/zh
+        -   url: /history/en/
+            src: docs/history/en
         /others/zh/:
-        -   url: /others/zh/
-            src: docs/others/zh
+        -   url: /others/en/
+            src: docs/others/en
     pages:
         /:
         -   url: /en/
