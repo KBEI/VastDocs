@@ -66,7 +66,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
             <div>
                 <ul id="nav_right">
 <li class=""><a target="_blank" href="https://github.com/SakurajimaMaii/VastUtils">github</a></li>
-<li class="sub_items "><a  href="">Language: 中文 简体</a><ul><li class="active"><a  href="/VastDocs/history/zh/">中文 简体</a></li>
+<li class="sub_items "><a  href="">Language: 中文 简体</a><ul><li class=""><a  href="/VastDocs/history/en/">English</a></li>
 <li class="active"><a  href="/VastDocs/history/zh/">中文 简体</a></li>
 </ul></li>
 </ul>
@@ -139,7 +139,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> 移除了 <code>CameraUtils</code> 工具类</li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> 移除了 <code>UrlValidator</code> 网络Url验证器</li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> <code>ScreenSizeUtils</code> 现在不再支持全面屏判断，只能获取屏幕的长宽</li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> 删除了 <code>AspectRatioDevice</code></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> 删除了 <code>AspectRatioDevice</code> ，不再支持定义更多的设备类型以及其对应的屏幕长宽比来判断全面屏</li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> <code>MsgWindowUtils</code> 不再支持弹出 <code>Dialog</code></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 新增 <code>ColorUtils</code> 工具类</li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 新增 <code>ShapeAndStateUtils</code> 工具类</li>
@@ -148,6 +148,34 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> <code>IntentUtils</code> 添加了 <code>resolveActivity</code> 判断，针对API 30以上的情况设定了提示信息</li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 修复日志打印logPrint函数存在的逻辑问题，删除了需要添加Class的环节，优化日志打印对于长度判断的设定，LogContent接口移动至 <code>LogUtils.kt</code> 内</li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> <code>MsgWindowUtils</code> 更名为 <code>ToastUtils</code></li>
+</ul>
+<h2 id="Version-0.0.4">Version 0.0.4</h2>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> <code>NoMatchAspectRatio</code> 异常</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> <code>BuildVersionException</code> 异常</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> 附带的140种颜色</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 新增 <code>MergeBitmapUtils</code> BitMap合并工具类</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 新增 <code>SystemUtils</code> 工具类</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> <code>DateFormat</code> 添加了常用的时间格式以及GMT时区</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> <code>DateFormatString</code> <code>GmtFormatString</code> <code>YearFormatString</code> 注解用来判断DateUtils内的参数类型</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 完善 <code>DateUtils</code> 方法和注释</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 全面屏判断由 <code>isAllScreenDevice</code> 根据 <strong>Build.VERSION.SDK_INT</strong> 选择对应的API，<code>isAllScreenDeviceApi31</code> ， <code>isAllScreenDeviceApi30</code> ，<code>isAllScreenDeviceApi30Down</code> 不可从外部调用</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 屏幕高度获取由 <code>getMobileScreenHeight</code> 根据 <strong>Build.VERSION.SDK_INT</strong> 选择对应的API， <code>getMobileScreenHeightApi31</code> ，<code>getMobileScreenHeightApi30</code> ， <code>getMobileScreenHeightApi30Down</code> 不可从外部调用</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 修复 <code>ScreenSizeUtils</code> 屏幕高度获取存在问题</li>
+</ul>
+<h2 id="Version-0.0.3">Version 0.0.3</h2>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 修复了日志打印不全解决的问题</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 修复日志打印堆栈信息有时候存在不匹配问题</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 支持定义更多的设备类型以及其对应的屏幕长宽比来判断全面屏</li>
+</ul>
+<h2 id="Version-0.0.2">Version 0.0.2</h2>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> 删除了Adapter部分</li>
+</ul>
+<h2 id="Version-0.0.1">Version 0.0.1</h2>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 将原本的代码由 <code>jitpack</code> 迁移至 <code>mavencentral</code> ，<strong>该版本还包含Adapter部分</strong></li>
 </ul>
 
                     </div>

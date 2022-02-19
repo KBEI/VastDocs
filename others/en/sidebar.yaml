@@ -1,0 +1,9 @@
+items:
+-   label: Get Started
+    file: README.md
+    collapsed: false
+    items:
+    -   label: StarBar
+        file: StarBar.md
+    -   label: ShapeButton
+        file: ShapeButton.md

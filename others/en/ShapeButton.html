@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN"  class=" language_zh " >
+<html lang="en"  class="" >
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +44,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
 <body class="type_doc">
     <div id="navbar">
         <div id="navbar_menu">
-            <a class="site_title" href="/VastDocs/">
+            <a class="site_title" href="/VastDocs/en/">
                 
                     <img class="site_logo" src="/VastDocs/static/image/logo.png" alt="my_site logo">
                 
@@ -57,27 +57,27 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         <div id="navbar_items">
             <div>
                 <ul id="nav_left">
-<li class=""><a  href="/VastDocs/get_started/zh/">文档</a></li>
-<li class=""><a  href="/VastDocs/history/zh/">更新历史</a></li>
-<li class="active"><a  href="/VastDocs/others/zh/">其他库</a></li>
+<li class=""><a  href="/VastDocs/get_started/en/">Document</a></li>
+<li class=""><a  href="/VastDocs/history/en/">History</a></li>
+<li class="active"><a  href="/VastDocs/others/en/">Other Module</a></li>
 </ul>
 
             </div>
             <div>
                 <ul id="nav_right">
 <li class=""><a target="_blank" href="https://github.com/SakurajimaMaii/VastUtils">github</a></li>
-<li class="sub_items "><a  href="">Language: 中文 简体</a><ul><li class=""><a  href="/VastDocs/others/en/">English</a></li>
-<li class="active"><a  href="/VastDocs/others/zh/">中文 简体</a></li>
+<li class="sub_items "><a  href="">Language: English</a><ul><li class="active"><a  href="/VastDocs/others/en/">English</a></li>
+<li class=""><a  href="/VastDocs/others/zh/">中文 简体</a></li>
 </ul></li>
 </ul>
 
-                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul><ul class="nav_plugins"><li><a id="search"><span class="icon"></span><span class="placeholder">搜索</span>
+                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul><ul class="nav_plugins"><li><a id="search"><span class="icon"></span><span class="placeholder">Search</span>
                             <div id="search_hints">
-                                <span id="search_input_hint">输入关键词，多关键词空格隔开</span>
-                                <span id="search_loading_hint">正在加载，请稍候。。。</span>
-                                <span id="search_download_err_hint">下载文件失败，请刷新重试或检查网络</span>
-                                <span id="search_other_docs_result_hint">来自其它文档的结果</span>
-                                <span id="search_curr_doc_result_hint">当前文档搜索结果</span>
+                                <span id="search_input_hint">Keywords separated by space</span>
+                                <span id="search_loading_hint">Loading, wait please ...</span>
+                                <span id="search_download_err_hint">Download error, please check network and refresh again</span>
+                                <span id="search_other_docs_result_hint">Result from other docs</span>
+                                <span id="search_curr_doc_result_hint">Result from current doc</span>
                             </div></a></li></ul>
             </div>
         </div>
@@ -89,9 +89,9 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     
                 </div>
                 <ul class="show">
-<li class="active_parent with_link"><a href="/VastDocs/others/zh/index.html"><span class="label">快速开始</span><span class="sub_indicator"></span></a><ul class="show">
-<li class="not_active with_link"><a href="/VastDocs/others/zh/StarBar.html"><span class="label">StarBar使用</span><span class=""></span></a></li>
-<li class="active with_link"><a href="/VastDocs/others/zh/ShapeButton.html"><span class="label">ShapeButton使用</span><span class=""></span></a></li>
+<li class="active_parent with_link"><a href="/VastDocs/others/en/index.html"><span class="label">Get Started</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/VastDocs/others/en/StarBar.html"><span class="label">StarBar</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/VastDocs/others/en/ShapeButton.html"><span class="label">ShapeButton</span><span class=""></span></a></li>
 </ul>
 </li>
 </ul>
@@ -126,8 +126,8 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                         <div id="article_info_right">
                             
                             <div id="source_link">
-                                <a href="https://github.com/SakurajimaMaii/VastDocs/blob/main/docs/others/zh/ShapeButton.md" target="_blank">
-                                    编辑本页
+                                <a href="https://github.com/SakurajimaMaii/VastDocs/blob/main/docs/others/en/ShapeButton.md" target="_blank">
+                                    Edit this page
                                 </a>
                             </div>
                             
@@ -135,7 +135,16 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                         </div>
                     </div>
                     <div id="article_content">
-                        <h2 id="%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE">属性设置</h2>
+                        <h2 id="Quick-use">Quick use</h2>
+<h3 id="Set-in-XML">Set in XML</h3>
+<pre><code class="lang-xml">&lt;com.gcode.widget.ShapeButton
+    android:id=&quot;@+id/button&quot;
+    android:layout_margin=&quot;10dp&quot;
+    android:layout_width=&quot;wrap_content&quot;
+    android:layout_height=&quot;wrap_content&quot; /&gt;
+</code></pre>
+<h3 id="Attribute-setting">Attribute setting</h3>
+<p>Here is a <strong>Kotlin</strong> way.</p>
 <pre><code class="lang-kotlin">button4.apply {
   setButtonShapeType(ShapeButtonShapeType.ANY_ROUNDED_RECT_SHAPE)
   setAnyRoundedRectCornerRadius(10f,0f,20f,0f)
@@ -165,171 +174,171 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
   create()
 }
 </code></pre>
-<p>注意,==设定最后一定要调用<strong>create()</strong> 方法,否则无法生效==</p>
-<h2 id="%E7%9B%B8%E5%85%B3%E5%B1%9E%E6%80%A7%E8%AF%B4%E6%98%8E">相关属性说明</h2>
+<p><strong>Finally, you must call the create() method, otherwise it will not take effect.</strong></p>
+<h2 id="Attribute">Attribute</h2>
 <table>
 <thead><tr>
-<th style="text-align:center">属性名</th>
-<th style="text-align:center">属性类型</th>
-<th style="text-align:center">属性说明</th>
-<th style="text-align:center">属性值</th>
+<th style="text-align:center">Attribute name</th>
+<th style="text-align:center">Type</th>
+<th style="text-align:center">Description</th>
+<th style="text-align:center">Default value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:center">button_shape</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">按钮的形状</td>
+<td style="text-align:center">Button shape</td>
 <td style="text-align:center">oval_shape<br>rect_shape<br>rounded_rect_shape<br>any_rounded_rect_shape</td>
 </tr>
 <tr>
 <td style="text-align:center">button_rect_width</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">矩形按钮宽度</td>
+<td style="text-align:center">Rectangular button width</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_rect_height</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">矩形按钮的高度</td>
+<td style="text-align:center">Rectangular button height</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_oval_radius</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">圆形按钮的半径</td>
+<td style="text-align:center">Oval button radius</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_rounded_rect_corner_radius</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">矩形按钮的圆角半径</td>
+<td style="text-align:center">Rounded radius of rounded rectangular button</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_left_top_corner_radius</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">任意圆角矩形按钮的四个圆角半径</td>
+<td style="text-align:center"><strong>LT</strong> corner radii of any rounded rectangular button</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_left_bottom_corner_radius</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">任意圆角矩形按钮的四个圆角半径</td>
+<td style="text-align:center"><strong>LB</strong> corner radii of any rounded rectangular button</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_right_top_corner_radius</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">任意圆角矩形按钮的四个圆角半径</td>
+<td style="text-align:center"><strong>RT</strong> corner radii of any rounded rectangular button</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_right_bottom_corner_radius</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">任意圆角矩形按钮的四个圆角半径</td>
+<td style="text-align:center"><strong>RB</strong> corner radii of any rounded rectangular button</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_is_solid</td>
 <td style="text-align:center">boolean</td>
-<td style="text-align:center">按钮是否填充</td>
+<td style="text-align:center"><code>true</code> is button solid,<code>false</code> otherwise</td>
 <td style="text-align:center">true<br>false</td>
 </tr>
 <tr>
 <td style="text-align:center">button_is_solid_color_gradient</td>
 <td style="text-align:center">boolean</td>
-<td style="text-align:center">按钮是否采用渐变填充色</td>
+<td style="text-align:center"><code>true</code> is solid color gradient,<code>false</code> otherwise</td>
 <td style="text-align:center">true<br>false</td>
 </tr>
 <tr>
 <td style="text-align:center">button_start_solid_color</td>
 <td style="text-align:center">color</td>
-<td style="text-align:center">渐变开始色</td>
+<td style="text-align:center"><strong>Start</strong> solid color</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_center_solid_color</td>
 <td style="text-align:center">color</td>
-<td style="text-align:center">渐变中间色</td>
+<td style="text-align:center"><strong>Center</strong> solid color</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_end_solid_color</td>
 <td style="text-align:center">color</td>
-<td style="text-align:center">渐变结束色</td>
+<td style="text-align:center"><strong>End</strong> solid color</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_gradient_type</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">渐变类型</td>
+<td style="text-align:center">Gradient type</td>
 <td style="text-align:center">linear_gradient<br>radial_gradient<br>sweep_shape</td>
 </tr>
 <tr>
 <td style="text-align:center">button_gradient_orientation</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">渐变方向</td>
+<td style="text-align:center">Gradient orientation</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_gradient_radius</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">渐变角度</td>
+<td style="text-align:center">Gradient radius</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_stroke_width</td>
 <td style="text-align:center">dimension</td>
-<td style="text-align:center">按钮边框宽度</td>
+<td style="text-align:center">Stroke width</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_normal_bg_color</td>
 <td style="text-align:center">color</td>
-<td style="text-align:center">默认状态背景色</td>
+<td style="text-align:center">Default button background color</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_pressed_bg_color</td>
 <td style="text-align:center">color</td>
-<td style="text-align:center">指当用户点击或者触摸该控件的背景色</td>
+<td style="text-align:center">Button background color when button is pressed.</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_focused_bg_color</td>
 <td style="text-align:center">color</td>
-<td style="text-align:center">指当前控件获得焦点时的背景色</td>
+<td style="text-align:center">Button background color when button is focused.</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_unable_bg_color</td>
 <td style="text-align:center">color</td>
-<td style="text-align:center">指当前窗口获得焦点时的背景色</td>
+<td style="text-align:center">Button background color when button is unable.</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_normal_stroke_color</td>
 <td style="text-align:center">color</td>
-<td style="text-align:center">默认状态边框色</td>
+<td style="text-align:center">Default button stroke color.</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_pressed_stroke_color</td>
 <td style="text-align:center">color</td>
-<td style="text-align:center">指当用户点击或者触摸该控件的边框色</td>
+<td style="text-align:center">Button stroke color when button is pressed.</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_focused_stroke_color</td>
 <td style="text-align:center">color</td>
-<td style="text-align:center">指当前控件获得焦点时的边框色</td>
+<td style="text-align:center">Button stroke color when button is focused.</td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td style="text-align:center">button_unable_stroke_color</td>
 <td style="text-align:center">color</td>
-<td style="text-align:center">指当前窗口获得焦点时的边框色</td>
+<td style="text-align:center">Button stroke color when button is unable.</td>
 <td style="text-align:center"></td>
 </tr>
 </tbody>
@@ -340,9 +349,9 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                 <div id="previous_next">
                     <div id="previous">
                         
-                        <a href="/VastDocs/others/zh/StarBar.html">
+                        <a href="/VastDocs/others/en/StarBar.html">
                             <span class="icon"></span>
-                            <span class="label">StarBar使用</span>
+                            <span class="label">StarBar</span>
                         </a>
                         
                     </div>
@@ -364,9 +373,8 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         <div id="footer">
             <div id="footer_top">
                 <ul>
-<li><a>源码</a><ul><li><a target="_blank" href="https://github.com/SakurajimaMaii/VastDocs">github</a></li>
-<li><a target="_blank" href="https://gitee.com/DothebestForMyself/VastDocs">gitee</a></li>
-<li><a target="_blank" href="https://github.com/SakurajimaMaii/VastUtils">项目地址</a></li>
+<li><a>Source code</a><ul><li><a target="_blank" href="https://github.com/SakurajimaMaii/VastDocs">github</a></li>
+<li><a target="_blank" href="https://github.com/SakurajimaMaii/VastUtils">VastUtils</a></li>
 </ul>
 </li>
 </ul>
