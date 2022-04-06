@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en"  class="" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="generator" content="teedoc">
+    <meta name="theme" content="teedoc-plugin-theme-default">
+    
+    <meta name="markdown-generator" content="teedoc-plugin-markdown-parser">
+    
+    <script>
+MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]]}, "svg": {"fontCache": "global"}};
+</script>
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="/VastDocs/static/css/theme_default/prism.min.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/VastDocs/static/css/theme_default/viewer.min.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/VastDocs/static/css/theme_default/dark.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/VastDocs/static/css/theme_default/light.css" type="text/css"/>
+    
+    <script src="/VastDocs/static/js/theme_default/split.js"></script>
+    
+    <script src="/VastDocs/static/js/theme_default/jquery.min.js"></script>
+    
+    <script src="/VastDocs/static/js/theme_default/pre_main.js"></script>
+    
+    <link rel="stylesheet" href="/VastDocs/static/css/search/style.css" type="text/css"/>
+    
+    <meta name="blog-generator" content="teedoc-plugin-blog">
+    
+    <link rel="stylesheet" href="/VastDocs/static/css/custom.css" type="text/css"/>
+    
+    <title>DateUtils - VastUtils</title>
+    <script type="text/javascript">js_vars = {}</script>
+</head>
+<body class="type_doc">
+    <div id="navbar">
+        <div id="navbar_menu">
+            <a class="site_title" href="/VastDocs/en/">
+                
+                    <img class="site_logo" src="/VastDocs/static/image/logo.png" alt="my_site logo">
+                
+                
+                    <h2>VastUtils</h2>
+                
+        </a>
+            <a id="navbar_menu_btn"></a>
+        </div>
+        <div id="navbar_items">
+            <div>
+                <ul id="nav_left">
+<li class="active"><a  href="/VastDocs/document/en/">Document</a></li>
+<li class=""><a  href="/VastDocs/history/en/">History</a></li>
+<li class=""><a  href="/VastDocs/others/en/">Other Module</a></li>
+</ul>
+
+            </div>
+            <div>
+                <ul id="nav_right">
+<li class=""><a target="_blank" href="https://github.com/SakurajimaMaii/VastUtils">github</a></li>
+<li class="sub_items "><a  href="">Language: English</a><ul><li class="active"><a  href="/VastDocs/document/en/">English</a></li>
+<li class=""><a  href="/VastDocs/document/zh/">中文 简体</a></li>
+</ul></li>
+</ul>
+
+                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul><ul class="nav_plugins"><li><a id="search"><span class="icon"></span><span class="placeholder">Search</span>
+                            <div id="search_hints">
+                                <span id="search_input_hint">Keywords separated by space</span>
+                                <span id="search_loading_hint">Loading, wait please ...</span>
+                                <span id="search_download_err_hint">Download error, please check network and refresh again</span>
+                                <span id="search_other_docs_result_hint">Result from other docs</span>
+                                <span id="search_curr_doc_result_hint">Result from current doc</span>
+                            </div></a></li></ul>
+            </div>
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="sidebar_wrapper">
+            <div id="sidebar">
+                <div id="sidebar_title">
+                    
+                </div>
+                <ul class="show">
+<li class="not_active with_link"><a href="/VastDocs/document/en/index.html"><span class="label">Get Started</span><span class=""></span></a></li>
+<li class="active_parent with_link"><a href="/VastDocs/document/en/VastTools.html"><span class="label">VastTools</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active no_link"><a><span class="label">VastBase</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/VastDocs/document/en/VastBaseActivity.html"><span class="label">VastBaseActivity</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/VastBaseFragment.html"><span class="label">VastBaseFragment</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">VastSkin</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/VastDocs/document/en/VastSkin.html"><span class="label">VastSkin</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="active_parent no_link"><a><span class="label">VastUtils</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/VastDocs/document/en/AppUtils.html"><span class="label">AppUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/Bean.html"><span class="label">Bean</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/ColorUtils.html"><span class="label">ColorUtils</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/VastDocs/document/en/DateUtils.html"><span class="label">DateUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/DensityUtils.html"><span class="label">DensityUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/IDCardUtils.html"><span class="label">IDCardUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/IntentUtils.html"><span class="label">IntentUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/LogUtils.html"><span class="label">LogUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/MergeBmpUtils.html"><span class="label">MergeBmpUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/no_translate.html?ref=/document/zh/NetStateUtil.html&from=/document/en/NetStateUtil.html"><span class="label">NetStateUtil</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/RegexUtils.html"><span class="label">RegexUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/ScreenSizeUtils.html"><span class="label">ScreenSizeUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/ShapeAndStateUtils.html"><span class="label">ShapeAndStateUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/SystemUtils.html"><span class="label">SystemUtils</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/ToastUtils.html"><span class="label">ToastUtils</span><span class=""></span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/VastAdapters.html"><span class="label">VastAdapter</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/VastDocs/document/en/VastAdapter.html"><span class="label">VastAdapter</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/VastBindAdapter.html"><span class="label">VastBindAdapter</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/VastNetState.html"><span class="label">VastNetStateLayout</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/VastDocs/document/en/VastNetStateLayout.html"><span class="label">VastNetStateLayout</span><span class=""></span></a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+        <div id="article">
+            <div id="menu_wrapper">
+                <div id="menu">
+                </div>
+            </div>
+            <div id="content_wrapper">
+                <div id="content_body">
+                    <div id="article_head">
+                        <div id="article_title">
+                            <h1>DateUtils</h1>
+                        </div>
+                        <div id="article_tags">
+                            <ul>
+                            
+                            </ul>
+                        </div>
+                        <div id="article_info">
+                        <div id="article_info_left">
+                            <span class="article_author">
+                                
+                            </span>
+                            <span class="article_date">
+                                
+                            </span>
+                        </div>
+                        <div id="article_info_right">
+                            
+                            <div id="source_link">
+                                <a href="https://github.com/SakurajimaMaii/VastDocs/blob/main/docs/document/en/DateUtils.md" target="_blank">
+                                    Edit this page
+                                </a>
+                            </div>
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <div id="article_content">
+                        <h2 id="Supported-time-formats">Supported time formats</h2>
+<pre><code class="lang-java">public static final String DATE_FORMAT = &quot;yyyy-MM-dd&quot;;
+public static final String TIME_FORMAT = &quot;yyyy-MM-dd HH:mm:ss&quot;;
+public static final String FORMAT_YYYY_MM = &quot;yyyy-MM&quot;;
+public static final String FORMAT_YYYY = &quot;yyyy&quot;;
+public static final String FORMAT_HH_MM = &quot;HH:mm&quot;;
+public static final String FORMAT_HH_MM_SS = &quot;HH:mm:ss&quot;;
+public static final String FORMAT_MM_SS = &quot;mm:ss&quot;;
+public static final String FORMAT_MM_DD_HH_MM = &quot;MM-dd HH:mm&quot;;
+public static final String FORMAT_MM_DD_HH_MM_SS = &quot;MM-dd HH:mm:ss&quot;;
+public static final String FORMAT_YYYY_MM_DD_HH_MM = &quot;yyyy-MM-dd HH:mm&quot;;
+public static final String FORMAT_YYYY2MM2DD = &quot;yyyy.MM.dd&quot;;
+public static final String FORMAT_YYYY2MM2DD_HH_MM = &quot;yyyy.MM.dd HH:mm&quot;;
+public static final String FORMAT_MMCDD_HH_MM = &quot;MM月dd日 HH:mm&quot;;
+public static final String FORMAT_MMCDD = &quot;MM月dd日&quot;;
+public static final String FORMAT_YYYYCMMCDD = &quot;yyyy年MM月dd日&quot;;
+</code></pre>
+<h2 id="Supported-time-zones">Supported time zones</h2>
+<pre><code class="lang-java">public static final String GMT_PLUS_ZONE = &quot;GMT+00:00&quot;;
+public static final String GMT_PLUS_ONE = &quot;GMT+01:00&quot;;
+public static final String GMT_PLUS_TWO = &quot;GMT+02:00&quot;;
+public static final String GMT_PLUS_THREE = &quot;GMT+03:00&quot;;
+public static final String GMT_PLUS_FOUR = &quot;GMT+04:00&quot;;
+public static final String GMT_PLUS_FIVE = &quot;GMT+05:00&quot;;
+public static final String GMT_PLUS_SIX = &quot;GMT+06:00&quot;;
+public static final String GMT_PLUS_SEVEN = &quot;GMT+07:00&quot;;
+public static final String GMT_PLUS_EIGHT = &quot;GMT+08:00&quot;;
+public static final String GMT_PLUS_NINE = &quot;GMT+09:00&quot;;
+public static final String GMT_PLUS_TEN = &quot;GMT+10:00&quot;;
+public static final String GMT_PLUS_ELEVEN = &quot;GMT+11:00&quot;;
+public static final String GMT_PLUS_TWELVE = &quot;GMT+12:00&quot;;
+public static final String GMT_MINUS_ONE = &quot;GMT-01:00&quot;;
+public static final String GMT_MINUS_TWO = &quot;GMT-02:00&quot;;
+public static final String GMT_MINUS_THREE = &quot;GMT-03:00&quot;;
+public static final String GMT_MINUS_FOUR = &quot;GMT-04:00&quot;;
+public static final String GMT_MINUS_FIVE = &quot;GMT-05:00&quot;;
+public static final String GMT_MINUS_SIX = &quot;GMT-06:00&quot;;
+public static final String GMT_MINUS_SEVEN = &quot;GMT-07:00&quot;;
+public static final String GMT_MINUS_EIGHT = &quot;GMT-08:00&quot;;
+public static final String GMT_MINUS_NINE = &quot;GMT-09:00&quot;;
+public static final String GMT_MINUS_TEN = &quot;GMT-10:00&quot;;
+public static final String GMT_MINUS_ELEVEN = &quot;GMT-11:00&quot;;
+public static final String GMT_MINUS_TWELVE = &quot;GMT-12:00&quot;;
+</code></pre>
+<h2 id="Get-current-time">Get current time</h2>
+<p>for example:</p>
+<pre><code class="lang-kotlin">Log.i(&quot;VU&quot;,DateUtils.currentTime)
+</code></pre>
+<p>result:</p>
+<pre><code>// By default, the result is based on month, year, day, hour, minute and second
+2022-02-08 12:34:15.921 11132-11132/com.gcode.vastutils I/VU: 2022-02-08 12:34:15
+</code></pre>
+<h2 id="Get-the-current-time-zone-of-the-device">Get the current time zone of the device</h2>
+<p>for example:</p>
+<pre><code class="lang-kotlin">Log.i(&quot;VU&quot;,DateUtils.currentTimeZone)
+</code></pre>
+<p>result:</p>
+<pre><code>2022-02-08 12:39:07.938 13174-13174/com.gcode.vastutils I/VU: GMT+08:00
+</code></pre>
+<h2 id="Gets-the-Date-object-of-the-current-minimum-date">Gets the Date object of the current minimum date</h2>
+<p>for example:</p>
+<pre><code class="lang-kotlin">val date: Date = DateUtils.minDate()
+</code></pre>
+<h2 id="The-minimum-date-string-parsed-in-the-specified-format">The minimum date string parsed in the specified format</h2>
+<p>for example:</p>
+<pre><code class="lang-kotlin">// If no parameter is added, it will be parsed in the format of yyyy-MM-dd HH:mm:ss by default.
+Log.i(&quot;VU&quot;,DateUtils.minDateToString())
+// If add format parameters of FORMAT_HH_MM,it will return only hours and minutes.
+Log.i(&quot;VU&quot;,DateUtils.minDateToString(FORMAT_HH_MM))
+</code></pre>
+<p>result:</p>
+<pre><code class="lang-kotlin">// Default format.
+2022-02-08 14:20:30.002 17203-17203/com.gcode.vastutils I/VU: 1900-02-01 14:20:30
+// Results in the given format.
+2022-02-08 14:18:51.090 16270-16270/com.gcode.vastutils I/VU: 14:18
+</code></pre>
+<h2 id="Gets-the-Date-object-according-to-the-given-time-string-and-format">Gets the Date object according to the given time string and format</h2>
+<p>for example:</p>
+<pre><code class="lang-kotlin">val date: Date? = DateUtils.datetimeFromString(&quot;14:18&quot;, FORMAT_HH_MM)
+</code></pre>
+<h2 id="Resolves-the-given-Date-to-a-time-string">Resolves the given Date to a time string</h2>
+<p>for example:</p>
+<pre><code class="lang-kotlin">// Get a Date object
+val date: Date? = DateUtils.datetimeFromString(&quot;14:18&quot;, FORMAT_HH_MM)
+// Print time string in log
+Log.i(&quot;VU&quot;,DateUtils.datetimeToString(date!!, FORMAT_HH_MM_SS))
+</code></pre>
+<p>result:</p>
+<pre><code class="lang-kotlin">2022-02-08 14:40:07.019 2431-2431/com.gcode.vastutils I/VU: 14:18:00
+</code></pre>
+<h2 id="Get-current-local-time-string-by-parsing-the-utcTime-in-dateFormat-format">Get current local time string by parsing the utcTime in dateFormat format</h2>
+<p>for example:</p>
+<pre><code class="lang-kotlin">// By default, the string is obtained according to yyyy MM DD HH: mm: SS and the current time zone
+Log.i(&quot;VU&quot;,DateUtils.dateTimeToGMT())
+//Set the time zone as the East Sixth zone, and the time format is yyyy MM. dd HH:mm
+Log.i(&quot;VU&quot;,DateUtils.dateTimeToGMT(GMT_PLUS_SIX,FORMAT_YYYY2MM2DD_HH_MM))
+</code></pre>
+<p>result:</p>
+<pre><code class="lang-kotlin">// By default
+2022-02-08 14:51:40.894 10129-10129/com.gcode.vastutils I/VU: 2022-02-08 14:51:40
+// Set parameters
+2022-02-08 14:54:35.201 11780-11780/com.gcode.vastutils I/VU: 2022.02.08 12:54
+</code></pre>
+<h2 id="Parse-the-current-time-according-to-the-given-UTC-time-and-format">Parse the current time according to the given UTC time and format</h2>
+<p>for example:</p>
+<pre><code class="lang-kotlin">Log.i(&quot;VU&quot;,DateUtils.dateTimeFromGMT(&quot;07:01&quot;,FORMAT_HH_MM))
+</code></pre>
+<p>result:</p>
+<pre><code class="lang-kotlin">2022-02-08 15:01:25.009 14700-14700/com.gcode.vastutils I/VU: 15:01
+</code></pre>
+<h2 id="Get-the-start-%28or-end%29-time-of-the-week.-Monday-is-the-first-day">Get the start (or end) time of the week. Monday is the first day</h2>
+<p>for example:</p>
+<pre><code class="lang-kotlin">// Get start time
+Log.i(&quot;VU&quot;,DateUtils.weekStartTime())
+// Get end time
+Log.i(&quot;VU&quot;,DateUtils.weekEndTime())
+</code></pre>
+<p>result:</p>
+<pre><code class="lang-kotlin">//Get start time
+2022-02-08 15:03:41.619 15780-15780/com.gcode.vastutils I/VU: 2022-02-07
+//Get end time
+2022-02-08 15:05:10.837 16168-16168/com.gcode.vastutils I/VU: 2022-02-13
+</code></pre>
+<h2 id="Get-the-timestamp-of-the-beginning-%28or-end%29-of-the-week.-Sunday-is-the-first-day">Get the timestamp of the beginning (or end) of the week. Sunday is the first day</h2>
+<p>for example:</p>
+<pre><code class="lang-kotlin">// Start timestamp
+Log.i(&quot;VU&quot;,DateUtils.getWeekStartTime())
+// End timestamp
+Log.i(&quot;VU&quot;,DateUtils.getWeekEndTime())
+</code></pre>
+<p>result:</p>
+<pre><code class="lang-kotlin">// Start timestamp
+2022-02-08 15:08:31.918 17680-17680/com.gcode.vastutils I/VU: 2022-02-06
+// End timestamp
+2022-02-08 15:09:47.869 18010-18010/com.gcode.vastutils I/VU: 2022-02-12
+</code></pre>
+
+                    </div>
+                </div>
+                <div id="previous_next">
+                    <div id="previous">
+                        
+                        <a href="/VastDocs/document/en/ColorUtils.html">
+                            <span class="icon"></span>
+                            <span class="label">ColorUtils</span>
+                        </a>
+                        
+                    </div>
+                    <div id="next">
+                        
+                        <a href="/VastDocs/document/en/DensityUtils.html">
+                            <span class="label">DensityUtils</span>
+                            <span class="icon"></span>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div id="comments-container"></div>
+            </div>
+            <div id="toc">
+                <div id="toc_content">
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="to_top" href="#"></a>
+    <div id="doc_footer">
+        <div id="footer">
+            <div id="footer_top">
+                <ul>
+<li><a>Source code</a><ul><li><a target="_blank" href="https://github.com/SakurajimaMaii/VastDocs">github</a></li>
+<li><a target="_blank" href="https://github.com/SakurajimaMaii/VastUtils">VastUtils</a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+            <div id="footer_bottom">
+                <ul>
+<li><a target="_blank" href="https://beian.miit.gov.cn"></a></li>
+<li><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=****************"></a></li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+    
+        <script src="/VastDocs/static/js/theme_default/tocbot.min.js"></script>
+    
+        <script src="/VastDocs/static/js/theme_default/main.js"></script>
+    
+        <script src="/VastDocs/static/js/theme_default/viewer.min.js"></script>
+    
+        <script src="/VastDocs/static/css/theme_default/prism.min.js"></script>
+    
+        <script src="/VastDocs/static/js/search/search_main.js"></script>
+    
+        <script src="/VastDocs/static/js/plugin_blog/main.js"></script>
+    
+        <script src="/VastDocs/static/js/custom.js"></script>
+    
+</body>
+</html>

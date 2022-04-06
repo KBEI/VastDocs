@@ -57,7 +57,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         <div id="navbar_items">
             <div>
                 <ul id="nav_left">
-<li class=""><a  href="/VastDocs/get_started/zh/">文档</a></li>
+<li class=""><a  href="/VastDocs/document/zh/">文档</a></li>
 <li class="active"><a  href="/VastDocs/history/zh/">更新历史</a></li>
 <li class=""><a  href="/VastDocs/others/zh/">其他库</a></li>
 </ul>
@@ -134,7 +134,23 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                         </div>
                     </div>
                     <div id="article_content">
-                        <h2 id="Version-0.0.5">Version 0.0.5</h2>
+                        <h2 id="Version-0.0.6">Version 0.0.6</h2>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> 删除了 <code>CheckPermission</code> 注解</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> 删除了 <code>UnderTest</code> 注解</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> 删除了 <code>ColorUtils</code> 颜色获取方法</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 新增基于 <a href="https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity"  target="_blank">AppCompatActivity</a> 封装的 Activity 基类，目前有 <code>VastVbActivity</code> <code>VastVbVmActivity</code> <code>VastVmActivity</code></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 新增基于 <a href="https://developer.android.com/reference/androidx/fragment/app/Fragment.html"  target="_blank">Fragment</a> 封装的 Fragment 基类，目前有 <code>VastVbFragment</code> <code>VastVbVmFragment</code> <code>VastVmFragment</code></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 新增基于 <a href="https://developer.android.com/reference/android/view/LayoutInflater.Factory2"  target="_blank">Factroy2</a> 实现的 <code>VastSkin</code> 插件</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 新增 <code>IDCardUtils</code> 工具类，提供中国居民身份证号码本地校验</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 新增 <code>RegexUtils</code> 工具类，提供了一些字符串格式正则检查</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> <code>DensityUtils</code> 新增 <code>.px</code> <code>.pt</code> <code>.mm</code> <code>.inches</code> 拓展方法</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> <code>IntentUtils</code> 新增 <a href="https://developer.android.com/studio/write/annotations?hl=zh-cn#permissions"  target="_blank">RequiresPermission</a> 来检查权限</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 优化 <code>Response</code> 设计，将 <code>data</code> 部分改进为泛型</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 修复 <code>LogUtils</code> 日志工具类由于使用 <code>BuildConfig.DEBUG</code> 而导致的不打印日志的问题 <a href="https://github.com/SakurajimaMaii/VastUtils/issues/33"  target="_blank">#issue 33</a></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked disabled/> 修复 <code>ScreenSizeUtils</code> 横屏模式下获取到的宽度出错问题 <a href="https://github.com/SakurajimaMaii/VastUtils/issues/34"  target="_blank">#issue 34</a> </li>
+</ul>
+<h2 id="Version-0.0.5">Version 0.0.5</h2>
 <ul>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> 移除了 <code>CameraUtils</code> 工具类</li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled /> 移除了 <code>UrlValidator</code> 网络Url验证器</li>
