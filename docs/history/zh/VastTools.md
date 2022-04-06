@@ -1,5 +1,21 @@
 # VastTools
 
+## Version 0.0.6
+
+- [ ] 删除了 `CheckPermission` 注解
+- [ ] 删除了 `UnderTest` 注解
+- [ ] 删除了 `ColorUtils` 颜色获取方法
+- [x] 新增基于 [AppCompatActivity](https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity) 封装的 Activity 基类，目前有 `VastVbActivity` `VastVbVmActivity` `VastVmActivity`
+- [x] 新增基于 [Fragment](https://developer.android.com/reference/androidx/fragment/app/Fragment.html) 封装的 Fragment 基类，目前有 `VastVbFragment` `VastVbVmFragment` `VastVmFragment`
+- [x] 新增基于 [Factroy2](https://developer.android.com/reference/android/view/LayoutInflater.Factory2) 实现的 `VastSkin` 插件
+- [x] 新增 `IDCardUtils` 工具类，提供中国居民身份证号码本地校验
+- [x] 新增 `RegexUtils` 工具类，提供了一些字符串格式正则检查
+- [x] `DensityUtils` 新增 `.px` `.pt` `.mm` `.inches` 拓展方法
+- [x] `IntentUtils` 新增 [RequiresPermission](https://developer.android.com/studio/write/annotations?hl=zh-cn#permissions) 来检查权限
+- [x] 优化 `Response` 设计，将 `data` 部分改进为泛型
+- [x] 修复 `LogUtils` 日志工具类由于使用 `BuildConfig.DEBUG` 而导致的不打印日志的问题 [#issue 33](https://github.com/SakurajimaMaii/VastUtils/issues/33)
+- [x] 修复 `ScreenSizeUtils` 横屏模式下获取到的宽度出错问题 [#issue 34](https://github.com/SakurajimaMaii/VastUtils/issues/34) 
+
 ## Version 0.0.5
 
 - [ ] 移除了 `CameraUtils` 工具类

@@ -1,8 +1,24 @@
 # VastTools
 
+## Version 0.0.6
+
+- [ ] Removed `CheckPermission`
+- [ ] Removed `UnderTest`
+- [ ] Removed `ColorUtils` color get method
+- [x] Added Activity base class based on [AppCompatActivity](https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity) package, currently there are `VastVbActivity` `VastVbVmActivity` `VastVmActivity`
+- [x] Added Fragment base class based on [Fragment](https://developer.android.com/reference/androidx/fragment/app/Fragment.html) package, currently there are `VastVbFragment` `VastVbVmFragment` `VastVmFragment`
+- [x] Added `VastSkin` plugin based on [Factroy2](https://developer.android.com/reference/android/view/LayoutInflater.Factory2)
+- [x] Added `IDCardUtils` tool class to provide local verification of Chinese resident ID numbers
+- [x] Added `RegexUtils` tool class, which provides some string format regularity checks
+- [x] `DensityUtils` added `.px` `.pt` `.mm` `.inches` extension methods
+- [x] `IntentUtils` added [RequiresPermission](https://developer.android.com/studio/write/annotations?hl=en-us#permissions) to check permissions
+- [x] Optimized `Response` design, improved the `data` part to be generic
+- [x] Fixed `LogUtils` log utility class not printing logs due to using `BuildConfig.DEBUG` [#issue 33](https://github.com/SakurajimaMaii/VastUtils/issues/33)
+- [x] Fix `ScreenSizeUtils` width error in landscape mode [#issue 34](https://github.com/SakurajimaMaii/VastUtils/issues/34)
+
 ## Version 0.0.5
 
-- [ ] Removed `CameraUtils` utility class
+- [ ] Removed `CameraUtils`
 - [ ] Removed `UrlValidator` web Url validator
 - [ ] `ScreenSizeUtils` now no longer supports full screen judgment, only the length and width of the screen can be obtained
 - [ ] Deleted `AspectRatioDevice` , no longer supports defining more device types and their corresponding screen aspect ratios to judge full screen

@@ -6,7 +6,7 @@ navbar:
         src: /static/image/logo.png
     home_url: /en/
     items:
-    -   url: /get_started/en/
+    -   url: /document/en/
         label: Document
         position: left
     -   url: /history/en/

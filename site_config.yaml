@@ -7,8 +7,8 @@ config_template_dir: config
 source: https://github.com/SakurajimaMaii/VastDocs/blob/main
 route:
     docs:
-        /get_started/zh/: docs/get_started/zh
-        /get_started/en/: docs/get_started/en
+        /document/zh/: docs/document/zh
+        /document/en/: docs/document/en
         /history/zh/: docs/history/zh
         /history/en/: docs/history/en
         /others/zh/: docs/others/zh
@@ -17,14 +17,14 @@ route:
         /: pages/index/zh
     assets:
         /static/: static
-        /get_started/assets/: docs/get_started/assets
+        /document/assets/: docs/document/assets
     blog:
         /blog/: blog
 translate:
     docs:
-        /get_started/zh/:
-        -   url: /get_started/en/
-            src: docs/get_started/en
+        /document/zh/:
+        -   url: /document/en/
+            src: docs/document/en
         /history/zh/:
         -   url: /history/en/
             src: docs/history/en

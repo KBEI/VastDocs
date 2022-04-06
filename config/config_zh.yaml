@@ -7,7 +7,7 @@ navbar:
         src: /static/image/logo.png
     home_url: /
     items:
-    -   url: /get_started/zh/
+    -   url: /document/zh/
         label: 文档
         position: left
     -   url: /history/zh/
