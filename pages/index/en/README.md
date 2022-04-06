@@ -14,6 +14,6 @@ id: home_page
 </div>
 <div id="big_btn_wrapper">
     <div class="big_btn">
-        <a href="/get_started/zh/">Get started</a>
+        <a href="/document/en/">Get started</a>
     </div>
 </div>
