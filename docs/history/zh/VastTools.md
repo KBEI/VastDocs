@@ -1,5 +1,9 @@
 # VastTools
 
+## Version 0.0.7(Latest)
+
+- [x] 修复 `LogUtils` 的 syncIsDeBug 方法被错误的加上了 internal 关键字的问题  [#issue 37](https://github.com/SakurajimaMaii/VastUtils/issues/37) 
+
 ## Version 0.0.6
 
 - [ ] 删除了 `CheckPermission` 注解

@@ -1,5 +1,9 @@
 # VastTools
 
+## Version 0.0.7(Latest)
+
+- [x] Fix `LogUtils` syncIsDeBug method is wrongly added internal keyword [#issue 37](https://github.com/SakurajimaMaii/VastUtils/issues/37)
+
 ## Version 0.0.6
 
 - [ ] Removed `CheckPermission`
