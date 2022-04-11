@@ -38,7 +38,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
     
     <link rel="stylesheet" href="/VastDocs/static/css/custom.css" type="text/css"/>
     
-    <title>AppInfoUtils - VastUtils</title>
+    <title>AppUtils - VastUtils</title>
     <script type="text/javascript">js_vars = {}</script>
 </head>
 <body class="type_doc">
@@ -110,7 +110,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
 <li class="not_active with_link"><a href="/VastDocs/document/en/IntentUtils.html"><span class="label">IntentUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/LogUtils.html"><span class="label">LogUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/MergeBmpUtils.html"><span class="label">MergeBmpUtils</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/VastDocs/document/en/no_translate.html?ref=/document/zh/NetStateUtil.html&from=/document/en/NetStateUtil.html"><span class="label">NetStateUtil</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/NetStateUtils.html"><span class="label">NetStateUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/RegexUtils.html"><span class="label">RegexUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/ScreenSizeUtils.html"><span class="label">ScreenSizeUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/ShapeAndStateUtils.html"><span class="label">ShapeAndStateUtils</span><span class=""></span></a></li>
@@ -142,7 +142,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                 <div id="content_body">
                     <div id="article_head">
                         <div id="article_title">
-                            <h1>AppInfoUtils</h1>
+                            <h1>AppUtils</h1>
                         </div>
                         <div id="article_tags">
                             <ul>
@@ -175,35 +175,35 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
 <pre><code class="lang-kotlin">Log.i(&quot;VU&quot;,getPackageName(this)?: &quot;&quot;)
 </code></pre>
 <p>result:</p>
-<pre><code>2022-02-08 12:15:42.888 28668-28668/com.gcode.vastutils I/VU: com.gcode.vastutils
+<pre><code class="lang-kotlin">2022-02-08 12:15:42.888 28668-28668/com.gcode.vastutils I/VU: com.gcode.vastutils
 </code></pre>
 <h2 id="Get-the-application-name">Get the application name</h2>
 <p>for example:</p>
 <pre><code class="lang-kotlin">Log.i(&quot;VU&quot;,getAppName(this)?: &quot;&quot;)
 </code></pre>
 <p>result:</p>
-<pre><code>2022-02-08 12:16:34.509 29223-29223/com.gcode.vastutils I/VU: VastUtilsSampleDemo
+<pre><code class="lang-kotlin">2022-02-08 12:16:34.509 29223-29223/com.gcode.vastutils I/VU: VastUtilsSampleDemo
 </code></pre>
 <h2 id="Get-version-name">Get version name</h2>
 <p>for example:</p>
 <pre><code class="lang-kotlin">Log.i(&quot;VU&quot;,getVersionName(this)?: &quot;&quot;)
 </code></pre>
 <p>result:</p>
-<pre><code>2022-02-08 12:21:32.561 586-586/com.gcode.vastutils I/VU: 1.0
+<pre><code class="lang-kotlin">2022-02-08 12:21:32.561 586-586/com.gcode.vastutils I/VU: 1.0
 </code></pre>
 <h2 id="Get-version-number">Get version number</h2>
 <p>for example:</p>
 <pre><code class="lang-kotlin">Log.i(&quot;VU&quot;, getVersionCode(this).toString())
 </code></pre>
 <p>result:</p>
-<pre><code>2022-02-08 12:24:11.924 6275-6275/com.gcode.vastutils I/VU: 1
+<pre><code class="lang-kotlin">2022-02-08 12:24:11.924 6275-6275/com.gcode.vastutils I/VU: 1
 </code></pre>
 <h2 id="Determine-whether-the-application-is-in-debug-state">Determine whether the application is in debug state</h2>
 <p>for example:</p>
 <pre><code class="lang-kotlin">Log.i(&quot;VU&quot;, getAppDebug(this).toString())
 </code></pre>
 <p>result:</p>
-<pre><code>2022-02-08 12:24:48.678 7578-7578/com.gcode.vastutils I/VU: true
+<pre><code class="lang-kotlin">2022-02-08 12:24:48.678 7578-7578/com.gcode.vastutils I/VU: true
 </code></pre>
 <h2 id="Get-app-Icon">Get app Icon</h2>
 <pre><code class="lang-kotlin">// ivI is an ImageView control

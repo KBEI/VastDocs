@@ -38,8 +38,8 @@ items:
             file: LogUtils.md
         -   label: MergeBmpUtils
             file: MergeBmpUtils.md
-        -   label: NetStateUtil
-            file: NetStateUtil.md    
+        -   label: NetStateUtils
+            file: NetStateUtils.md    
         -   label: RegexUtils
             file: RegexUtils.md
         -   label: ScreenSizeUtils

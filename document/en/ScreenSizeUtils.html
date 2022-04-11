@@ -110,7 +110,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
 <li class="not_active with_link"><a href="/VastDocs/document/en/IntentUtils.html"><span class="label">IntentUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/LogUtils.html"><span class="label">LogUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/MergeBmpUtils.html"><span class="label">MergeBmpUtils</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/VastDocs/document/en/no_translate.html?ref=/document/zh/NetStateUtil.html&from=/document/en/NetStateUtil.html"><span class="label">NetStateUtil</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/NetStateUtils.html"><span class="label">NetStateUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/RegexUtils.html"><span class="label">RegexUtils</span><span class=""></span></a></li>
 <li class="active with_link"><a href="/VastDocs/document/en/ScreenSizeUtils.html"><span class="label">ScreenSizeUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/ShapeAndStateUtils.html"><span class="label">ShapeAndStateUtils</span><span class=""></span></a></li>
@@ -170,11 +170,19 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                         </div>
                     </div>
                     <div id="article_content">
-                        <p>Screensizeutils provides you with ways to get the length and width of the screen, such as：</p>
-<pre><code class="lang-kotlin">LogUtils.i(&quot;VU&quot;,&quot;${getMobileScreenWidth()} ${getMobileScreenHeight()}&quot;)
+                        <p>Screensizeutils provides you with ways to get the length and width of the screen.</p>
+<p>Use in <code>Activity</code> :</p>
+<pre><code class="lang-kotlin">val screenWidth = getMobileScreenWidth()
+val screenHeight = getMobileScreenHeight()
 </code></pre>
-<p>result:</p>
-<pre><code class="lang-kotlin">2022-02-10 21:47:37.265 4463-4463/com.gcode.vastutils I/class (MainActivity.kt:43): method: onCreate() key: VU content: 1080 2340
+<p>Use in <code>Fragment</code> :</p>
+<pre><code class="lang-kotlin">val screenHeight = requireContext().getMobileScreenHeight()
+val screenWidth = requireContext().getMobileScreenWidth()
+</code></pre>
+<p>For example:</p>
+<pre><code class="lang-kotlin">LogUtils.i(&quot;VU&quot;,&quot;$screenWidth $screenHeight&quot;)
+
+2022-02-10 21:47:37.265 4463-4463/com.gcode.vastutils I/class (MainActivity.kt:43): method: onCreate() key: VU content: 1080 2340
 </code></pre>
 
                     </div>

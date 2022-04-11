@@ -110,7 +110,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
 <li class="not_active with_link"><a href="/VastDocs/document/en/IntentUtils.html"><span class="label">IntentUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/LogUtils.html"><span class="label">LogUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/MergeBmpUtils.html"><span class="label">MergeBmpUtils</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/VastDocs/document/en/no_translate.html?ref=/document/zh/NetStateUtil.html&from=/document/en/NetStateUtil.html"><span class="label">NetStateUtil</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/VastDocs/document/en/NetStateUtils.html"><span class="label">NetStateUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/RegexUtils.html"><span class="label">RegexUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/ScreenSizeUtils.html"><span class="label">ScreenSizeUtils</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/VastDocs/document/en/ShapeAndStateUtils.html"><span class="label">ShapeAndStateUtils</span><span class=""></span></a></li>
@@ -171,24 +171,24 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     </div>
                     <div id="article_content">
                         <p><code>ColorUtils</code> provides you with conversion methods between different Color formats</p>
-<h2 id="Color-hexadecimal-string-convert-to-int">Color hexadecimal string convert to int</h2>
+<h2 id="Converting-Color-hexadecimal-string-to-int">Converting Color hexadecimal string to int</h2>
 <pre><code class="lang-kotlin">val colorInt = colorHex2Int(&quot;#12c2e9&quot;)
 </code></pre>
-<h2 id="Color-hexadecimal-string-convert-to-an-array-of-RGB">Color hexadecimal string convert to an array of RGB</h2>
+<h2 id="Converting-color-hexadecimal-string-to-an-array-of-RGB">Converting color hexadecimal string to an array of RGB</h2>
 <p>For example,it will convert <strong>#12c2e9</strong> to <strong>{18,194,233}</strong></p>
 <pre><code class="lang-kotlin">val rgb:IntArray = colorHex2RGB(&quot;#12c2e9&quot;)
 </code></pre>
-<h2 id="Color-int-convert-to-hexadecimal-string">Color int convert to hexadecimal string</h2>
+<h2 id="Converting-color-int-to-hexadecimal-string">Converting color int to hexadecimal string</h2>
 <pre><code class="lang-kotlin">val colorHex:String = colorInt2Hex(-15547671)
 </code></pre>
-<h2 id="Color-int-convert-to-an-array-of-RGB">Color int convert to an array of RGB</h2>
+<h2 id="Converting-color-int-to-an-array-of-RGB">Converting color int to an array of RGB</h2>
 <pre><code class="lang-kotlin">val rgb:IntArray = colorInt2RGB(-15547671)
 </code></pre>
-<h2 id="An-array-of-RGB-convert-to-color-hexadecimal-string">An array of RGB convert to color hexadecimal string</h2>
+<h2 id="Converting-an-array-of-RGB-to-color-hexadecimal-string">Converting an array of RGB to color hexadecimal string</h2>
 <p>For example,it will convert <strong>{63,226,197}</strong> to <strong>#3FE2C5</strong></p>
 <pre><code class="lang-kotlin">val colorHex:String = colorRGB2Hex(intArrayOf(63,226,197))
 </code></pre>
-<h2 id="An-array-of-RGB-convert-to-color-int.">An array of RGB convert to color int.</h2>
+<h2 id="Converting-an-array-of-RGB-to-color-int">Converting an array of RGB to color int</h2>
 <pre><code class="lang-kotlin">val colorHex:Int = colorRGB2Int(intArrayOf(63,226,197))
 </code></pre>
 

@@ -170,11 +170,19 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                         </div>
                     </div>
                     <div id="article_content">
-                        <p><code>ScreenSizeUtils</code> 为你提供了获取屏幕长宽的方法，例如</p>
-<pre><code class="lang-kotlin">LogUtils.i(&quot;VU&quot;,&quot;${getMobileScreenWidth()} ${getMobileScreenHeight()}&quot;)
+                        <p><code>ScreenSizeUtils</code> 为你提供了获取屏幕长宽的方法，例如:</p>
+<p>当你在 <code>Activity</code> 内使用时：</p>
+<pre><code class="lang-kotlin">val screenWidth = getMobileScreenWidth()
+val screenHeight = getMobileScreenHeight()
 </code></pre>
-<p>运行结果</p>
-<pre><code class="lang-kotlin">2022-02-10 21:47:37.265 4463-4463/com.gcode.vastutils I/class (MainActivity.kt:43): method: onCreate() key: VU content: 1080 2340
+<p>当你在 <code>Fragment</code> 内使用时</p>
+<pre><code class="lang-kotlin">val screenHeight = requireContext().getMobileScreenHeight()
+val screenWidth = requireContext().getMobileScreenWidth()
+</code></pre>
+<p>运行示例</p>
+<pre><code class="lang-kotlin">LogUtils.i(&quot;VU&quot;,&quot;$screenWidth $screenHeight&quot;)
+
+2022-02-10 21:47:37.265 4463-4463/com.gcode.vastutils I/class (MainActivity.kt:43): method: onCreate() key: VU content: 1080 2340
 </code></pre>
 
                     </div>
