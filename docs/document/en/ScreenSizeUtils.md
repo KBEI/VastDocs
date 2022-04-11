@@ -1,13 +1,25 @@
 # ScreenSizeUtils
 
-Screensizeutils provides you with ways to get the length and width of the screen, such as：
+Screensizeutils provides you with ways to get the length and width of the screen.
+
+Use in `Activity` :
 
 ```kotlin
-LogUtils.i("VU","${getMobileScreenWidth()} ${getMobileScreenHeight()}")
+val screenWidth = getMobileScreenWidth()
+val screenHeight = getMobileScreenHeight()
 ```
 
-result:
+Use in `Fragment` :
 
 ```kotlin
+val screenHeight = requireContext().getMobileScreenHeight()
+val screenWidth = requireContext().getMobileScreenWidth()
+```
+
+For example:
+
+```kotlin
+LogUtils.i("VU","$screenWidth $screenHeight")
+
 2022-02-10 21:47:37.265 4463-4463/com.gcode.vastutils I/class (MainActivity.kt:43): method: onCreate() key: VU content: 1080 2340
 ```

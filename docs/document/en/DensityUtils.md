@@ -1,6 +1,6 @@
 # DensityUtils
 
-Dimension tools provide you with some basic mutual conversion between dimensions. For more information about dimensions, you can click [Dimension](https://developer.android.google.cn/guide/topics/resources/more-resources?hl=zh-cn#Dimension) to find out.
+`DensityUtils` provide you with some methods to convert different dimensions. For more information about dimensions, you can click [Dimension](https://developer.android.google.cn/guide/topics/resources/more-resources?hl=zh-cn#Dimension) to find out.
 
 ## Conversion between PX and DP
 

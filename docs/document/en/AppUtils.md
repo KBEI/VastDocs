@@ -1,4 +1,4 @@
-# AppInfoUtils
+# AppUtils
 
 ## Get app package name
 
@@ -10,7 +10,7 @@ Log.i("VU",getPackageName(this)?: "")
 
 result:
 
-```
+```kotlin
 2022-02-08 12:15:42.888 28668-28668/com.gcode.vastutils I/VU: com.gcode.vastutils
 ```
 
@@ -24,7 +24,7 @@ Log.i("VU",getAppName(this)?: "")
 
 result:
 
-```
+```kotlin
 2022-02-08 12:16:34.509 29223-29223/com.gcode.vastutils I/VU: VastUtilsSampleDemo
 ```
 
@@ -40,7 +40,7 @@ Log.i("VU",getVersionName(this)?: "")
 
 result:
 
-```
+```kotlin
 2022-02-08 12:21:32.561 586-586/com.gcode.vastutils I/VU: 1.0
 ```
 
@@ -54,7 +54,7 @@ Log.i("VU", getVersionCode(this).toString())
 
 result:
 
-```
+```kotlin
 2022-02-08 12:24:11.924 6275-6275/com.gcode.vastutils I/VU: 1
 ```
 
@@ -68,7 +68,7 @@ Log.i("VU", getAppDebug(this).toString())
 
 result:
 
-```
+```kotlin
 2022-02-08 12:24:48.678 7578-7578/com.gcode.vastutils I/VU: true
 ```
 
